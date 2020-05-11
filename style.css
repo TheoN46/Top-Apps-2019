@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+
+header img{
+	width:100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image:url('images/paralax picture.jpg'):
+
+  /* Set a specific height */
+  min-height: 300px; 
+
+ 
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+
+
+li{
+	padding:15px;
+	
+	
+}
+
+
+h1{
+	text-align: center;
+	
+	
+}
+
+
+
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000000
+}
+nav li {
+float: right;
+}
+nav li a{
+	top:0;
+	display: block;
+	text-align: center;
+	padding: 30px;
+	text-decoration: none;
+	font-size: 23px;
+	color: #EC0003
+	
+}
+
+
+.float_right{
+	float:right;
+	padding-left:12px;
+}
+body{
+	width:80%;
+	background-color: floralwhite;
+	font-size:medium;
+	text-align: justify;
+	font-family: 'Raleway', sans-serif;
+	margin: auto;
+	
+}
+
+footer{
+	background-color: red;
+	color:white;
+	text-align: center;
+	
+}
+
+h1{
+	color:green;
+}
